@@ -1,0 +1,26 @@
+{
+  "name": "rocketchat-emoji-uploader",
+  "version": "0.0.1",
+  "description": "Bulk upload custom emoji to RocketChat",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "precise-commits": "precise-commits"
+  },
+  "author": "kut-arika",
+  "license": "MIT",
+  "devDependencies": {
+    "husky": "^1.1.1",
+    "precise-commits": "^1.0.2",
+    "prettier": "1.14.3"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "precise-commits"
+    }
+  },
+  "dependencies": {
+    "websocket": "^1.0.28",
+    "websocket-as-promised": "^0.9.0"
+  }
+}
